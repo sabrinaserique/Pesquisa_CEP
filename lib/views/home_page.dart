@@ -242,7 +242,19 @@ class _HomePageState extends State<HomePage> {
               ],
             ),
           )
-          : Text(_invalid ?? ''),
+          : Center(
+        child: Column(
+          children: [
+            Text(
+                _invalid ?? '',
+                style: TextStyle(
+                  color: Colors.red[800],
+                  fontWeight: FontWeight.bold,
+                  fontSize: 20)
+            ),
+          ],
+        ),
+      )
     );
   }
 }
