@@ -207,6 +207,36 @@ class _HomePageState extends State<HomePage> {
                         ),
                         RichText(
                             text: TextSpan(
+                                text: 'UF: ',
+                                style: TextStyle(
+                                    fontSize: 22.0,
+                                    color: Colors.black),
+                                children: [
+                                  TextSpan(
+                                      text: _uf != null ? '$_uf' : " ",
+                                      style: TextStyle(
+                                          color: Colors.grey)
+                                  )
+                                ]
+                            )
+                        ),
+                        RichText(
+                            text: TextSpan(
+                                text: 'Unidade: ',
+                                style: TextStyle(
+                                    fontSize: 22.0,
+                                    color: Colors.black),
+                                children: [
+                                  TextSpan(
+                                      text: _unidade != null ? '$_unidade' : " ",
+                                      style: TextStyle(
+                                          color: Colors.grey)
+                                  )
+                                ]
+                            )
+                        ),
+                        RichText(
+                            text: TextSpan(
                               text: 'IBGE: ',
                               style: TextStyle(
                                 fontSize: 22.0,
