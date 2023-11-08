@@ -123,6 +123,7 @@ class _HomePageState extends State<HomePage> {
             child: Column(
               children: [
                 Card(
+                  elevation: 9,
                   child: Container(
                     padding: EdgeInsets.all(20.0),
                     child: Column(
