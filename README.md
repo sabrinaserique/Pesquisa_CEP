@@ -1,6 +1,7 @@
-# pesquisa_cep
+# Search CEP
 
-A new Flutter project.
+A new Flutter project. 
+Simple application in Flutter to search for address information through zip code.
 
 ## Getting Started
 
